@@ -1,0 +1,223 @@
+@font-face {
+  font-family: myFont;
+  src: url(./Gilroy-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Playfair Display", serif;
+}
+
+#main {
+  position: relative;
+  overflow: hidden;
+  background-color: #fffaf0;
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+#page1 h1 {
+  font-size: 4.5vw;
+  position: absolute;
+  color: #fff;
+  line-height: 4.5vw;
+  text-align: center;
+  top: 35%;
+  right: 0%;
+  font-weight: 400;
+  width: 40%;
+}
+
+#page1 h2 {
+  font-size: 1.3vw;
+  position: absolute;
+  color: #fff;
+  line-height: 1.5vw;
+  text-align: center;
+  top: 57%;
+  font-family: myFont;
+  right: 10%;
+  font-weight: 400;
+  width: 20%;
+}
+
+#page2 {
+  height: 180vh;
+  width: 100%;
+  position: relative;
+}
+
+#top-text {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  /* background-color: red; */
+  width: 80%;
+}
+
+#top-text h2 {
+  text-align: center;
+  font-size: 5vw;
+  font-weight: 500;
+  line-height: 5vw;
+}
+
+#center-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  /* background-color: pink; */
+  text-align: center;
+  width: 83%;
+}
+
+#center-page h1 {
+  font-size: 4vw;
+  font-weight: 500;
+  line-height: 4.5vw;
+}
+
+#center-page h5 {
+  font-family: myFont;
+  font-size: 1.5vw;
+  font-weight: 400;
+  margin-bottom: 2vw;
+}
+
+#page2 img {
+  width: 70%;
+  position: absolute;
+  z-index: 9;
+  top: -10%;
+  left: 15%;
+}
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#page3 h5 {
+  font-family: myFont;
+  font-size: 1.5vw;
+  font-weight: 400;
+  margin-bottom: 2vw;
+}
+
+#page3 h1 {
+  font-size: 4vw;
+  font-weight: 500;
+  line-height: 4.5vw;
+  width: 75%;
+  text-align: center;
+}
+
+#page4 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  margin-top: 20vw;
+}
+
+.text-elem {
+  width: 40%;
+  padding-top: 12vw;
+  margin-left: 2vw;
+}
+
+.text-elem h4 {
+  font-family: myFont;
+  font-size: 1.5vw;
+  font-weight: 400;
+  margin-bottom: 2vw;
+}
+
+.text-elem h2 {
+  font-size: 3vw;
+  font-weight: 500;
+  line-height: 3.5vw;
+  margin-left: 3vw;
+}
+
+#page4-right {
+  position: absolute;
+  top: -10%;
+  right: 12%;
+}
+
+#page5 {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8vw;
+  padding: 7vw 11vw;
+  flex-wrap: wrap;
+}
+
+#page6 {
+  min-height: 80vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+#page6 h1 {
+  font-size: 7vw;
+  font-weight: 500;
+  line-height: 7vw;
+  text-align: center;
+  padding-top: 18vw;
+}
+
+#page7 {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#page7 h2 {
+  font-size: 2.5vw;
+  position: absolute;
+  color: #fff;
+  line-height: 3vw;
+  top: 40%;
+  left: 15%;
+  font-weight: 400;
+  width: 50%;
+}
+
+#page7 h2 span {
+  opacity: 0;
+}
